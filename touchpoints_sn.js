@@ -55,7 +55,7 @@
     };
 
     myConnector.getData = function (table, doneCallback) {
-        $.getJSON("https://prod-05.usgovtexas.logic.azure.us/workflows/b4a432ef3ae24e85868b8d4f857b7312/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=GQ1mn3SrcBdsYAtc5NTJp_qs6nmrbEN2Xe_tFB8WqaQ", function (data) {
+        $.getJSON("", function (data) {
             var feat = data.result,
                 tableData = [];
 
